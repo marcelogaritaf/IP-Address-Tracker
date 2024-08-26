@@ -10,14 +10,17 @@ h1{
     padding-top: 30px;
     padding-bottom: 50%;
     font-size: 25px;
+    font-weight: 500;
+
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 535px) {
     .background-title{
         background-image: url('../../assets/pattern-bg-desktop.png');
         background-size: auto;
         background-position: top;
     }
     h1{
-        font-size: 40px;
+        padding-top: 15px;
+        padding-bottom:20%;
     }
 }
