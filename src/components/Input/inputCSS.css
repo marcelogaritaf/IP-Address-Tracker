@@ -1,0 +1,23 @@
+.input-section{
+    margin: 0 5px;
+}
+form{
+   text-align: center;
+   padding-bottom: 25%;
+}
+form input{
+    padding: 15px 10px;
+    border: 0;
+    border-radius: 10px 0 0 10px;
+    width: 70%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+form button{
+    padding: 15px 18px;
+    background-color: black;
+    border: 0;
+    color: white;
+    font-weight: 500;
+    border-radius: 0 10px 10px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
