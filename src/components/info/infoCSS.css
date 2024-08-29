@@ -18,3 +18,20 @@
 .info-IP h3{
     margin: 7px 0;
 }
+@media screen and (min-width: 550px) {
+    .info-IP{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 60px;
+        width: 90%;
+        text-align: left;
+    }
+}
+@media screen and (min-width: 1200px){
+    .info-IP{
+        width:75%;
+        padding: 35px;
+        margin: 0 155px; 
+
+    }
+}

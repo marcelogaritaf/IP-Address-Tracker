@@ -3,7 +3,7 @@
 }
 form{
    text-align: center;
-   padding-bottom: 25%;
+   padding-bottom: 35%;
 }
 form input{
     padding: 15px 10px;
@@ -22,7 +22,15 @@ form button{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 @media screen and (min-width: 535px){
+    form{
+     padding-bottom: 10%;
+    }
     form input{
-        width: 85%;
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1200px){
+    form input{
+        width: 30%;
     }
 }
