@@ -6,7 +6,7 @@ const MapComponent = () => {
   return (
     <MapContainer
       center={position}
-      zoom={13}
+      zoom={15}
       style={{
         height: "100vh",
         width: "100%",
