@@ -5,9 +5,12 @@ import "@fontsource/rubik";
 import "@fontsource/rubik/400.css";
 import "@fontsource/rubik/400-italic.css";
 import "./index.css";
-
+import { QueryClient, QueryClientProvider } from "react-query";
+const reactQuery = new QueryClient();
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <QueryClientProvider client={reactQuery}>
+      <App />
+    </QueryClientProvider>
   </React.StrictMode>
 );
