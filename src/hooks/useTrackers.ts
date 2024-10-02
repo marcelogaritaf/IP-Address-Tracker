@@ -1,7 +1,7 @@
 import { useQuery } from "react-query"
 import ApiIpTracker from "../services/Api-ipTracker"
 
-interface IpTracker{
+export interface IpTracker{
     ip:string,
     isp:string
 }
