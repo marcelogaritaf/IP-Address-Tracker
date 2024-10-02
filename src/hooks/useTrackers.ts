@@ -3,6 +3,7 @@ import ApiIpTracker from "../services/Api-ipTracker"
 
 export interface IpTracker{
     ip:string,
+    location:{country:string, region:string,timezone:string}
     isp:string
 }
 const apitracker = new ApiIpTracker<IpTracker>('ipAddress')
