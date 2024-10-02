@@ -12,11 +12,11 @@ const InfoIPTrackerComponent = ({ ipTracker }: Props) => {
       </div>
       <div className="location">
         <label>location</label>
-        <h3>Brooklyn, NY 10001</h3>
+        <h3>{ipTracker.location.region}</h3>
       </div>
       <div className="timezone">
         <label>timezone</label>
-        <h3>UTC-05:00</h3>
+        <h3>{ipTracker.location.timezone}</h3>
       </div>
       <div className="isp">
         <label>Isp</label>
