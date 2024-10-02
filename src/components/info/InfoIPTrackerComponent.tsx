@@ -1,10 +1,14 @@
+import { IpTracker } from "../../hooks/useTrackers";
 import "./infoCSS.css";
-const InfoIPTrackerComponent = () => {
+interface Props {
+  ipTracker: IpTracker;
+}
+const InfoIPTrackerComponent = ({ ipTracker }: Props) => {
   return (
     <div className="info-IP">
       <div className="ipAddress">
         <label>ip address</label>
-        <h3>192.212.174.101</h3>
+        <h3>{ipTracker.ip}</h3>
       </div>
       <div className="location">
         <label>location</label>
@@ -16,7 +20,7 @@ const InfoIPTrackerComponent = () => {
       </div>
       <div className="isp">
         <label>Isp</label>
-        <h3>SpaceX Starlink</h3>
+        <h3>{ipTracker.isp}</h3>
       </div>
     </div>
   );

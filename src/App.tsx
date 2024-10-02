@@ -10,7 +10,11 @@ function App() {
     <>
       <div className="main-container">
         <IpTrackerTitle />
-        <InfoIPTrackerComponent />
+        {data ? (
+          <InfoIPTrackerComponent ipTracker={data} />
+        ) : (
+          <p>no data available</p>
+        )}
       </div>
       <div className="map">
         <MapComponent />
