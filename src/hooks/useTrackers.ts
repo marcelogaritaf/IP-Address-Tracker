@@ -5,7 +5,7 @@ export interface IpTracker{
     ip:string,
     isp:string
 }
-const apitracker = new ApiIpTracker<IpTracker>('&ipAddress=')
+const apitracker = new ApiIpTracker<IpTracker>('ipAddress')
 const useTrackers=()=>{
     return useQuery<IpTracker>({
         queryKey:['ipTracker'],
