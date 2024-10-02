@@ -4,8 +4,9 @@ import IpTrackerTitle from "./components/title/IpTrackerTitle";
 import useTrackers from "./hooks/useTrackers";
 import "./index.css";
 function App() {
-  const { data } = useTrackers();
+  const { data, isLoading } = useTrackers();
   console.log(data);
+  if (isLoading) return <p>is loading</p>;
   return (
     <>
       <div className="main-container">
