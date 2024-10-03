@@ -15,5 +15,9 @@ class ApiIpTracker<T>{
         const res= await axiosInstance.get<T>(this.endpoint)
         return res.data
     }
+    getByDomain=async(ip:string)=>{
+        const res= await axiosInstance.get<T>(this.endpoint+ip)
+        return res.data
+    }
 }
 export default ApiIpTracker
