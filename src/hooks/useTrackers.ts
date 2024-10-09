@@ -7,8 +7,8 @@ export interface IpTracker{
     location:{country:string, region:string,timezone:string}
     isp:string
 }
-const apitracker = new ApiIpTracker<IpTracker>('ipAddress')
-const apitrackerByDomain= new ApiIpTracker<IpTracker>('/ipAddress/')
+const apitracker = new ApiIpTracker<IpTracker>('')
+const apitrackerByDomain= new ApiIpTracker<IpTracker>('')
 const useTrackers=()=>{
     const ipTracker= useTrackerStore(s=>s.ipTracker)
     return useQuery<IpTracker>({
