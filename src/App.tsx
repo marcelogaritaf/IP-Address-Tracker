@@ -5,7 +5,7 @@ import useTrackers from "./hooks/useTrackers";
 import "./index.css";
 function App() {
   const { data, isLoading } = useTrackers();
-  console.log(data);
+  console.log(data?.location.country);
   if (isLoading) return <p>is loading</p>;
   return (
     <>

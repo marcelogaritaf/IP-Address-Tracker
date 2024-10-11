@@ -1,6 +1,6 @@
 import { LatLngExpression } from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { MapContainer, Popup, TileLayer, Marker } from "react-leaflet";
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { IpTracker } from "../../hooks/useTrackers";
 interface Props {
   ip: IpTracker;
