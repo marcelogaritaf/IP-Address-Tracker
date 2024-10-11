@@ -1,7 +1,11 @@
 import { LatLngExpression } from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { MapContainer, Popup, TileLayer, Marker } from "react-leaflet";
-const MapComponent = () => {
+import { IpTracker } from "../../hooks/useTrackers";
+interface Props {
+  ip: IpTracker;
+}
+const MapComponent = ({ ip }: Props) => {
   const position: LatLngExpression = [51.505, -0.09];
   return (
     <MapContainer
@@ -19,7 +23,7 @@ const MapComponent = () => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
       <Marker position={position}>
-        <Popup>i'm in london</Popup>
+        <Popup>i'm in {ip.location.country}</Popup>
       </Marker>
     </MapContainer>
   );

@@ -18,7 +18,7 @@ function App() {
         )}
       </div>
       <div className="map">
-        <MapComponent />
+        {data ? <MapComponent ip={data} /> : <p>no data available</p>}
       </div>
     </>
   );
