@@ -25,12 +25,12 @@ The challenge is to build out this IP Address Tracker app and get it looking as 
 ### Screenshot
 
 Here are some screenshots of the final solution
-![](./screenshot.jpg)
+![](./src/assets/screen-desktop.png)
+![](./src/assets/screen-mobile.png)
 
 ### Links
 
-- Solution Github URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Url](https://ipaddresstracker-mgf.netlify.app/)
 
 ## My process
 
