@@ -1,30 +1,63 @@
-# React + TypeScript + Vite
+# Frontend Mentor - IP address tracker solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+An small summary about the challenge is that users should be able to search and find the location, timezone, ip address and isp of whatever domain or ip address they want.
 
-- Configure the top-level `parserOptions` property like this:
+### The challenge
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+The challenge is to build out this IP Address Tracker app and get it looking as close to the design as possible. To get the IP Address locations, i'll be using the [IP Geolocation API by IPify](https://geo.ipify.org/). To generate the map, we recommend using [LeafletJS](https://leafletjs.com/).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Screenshot
+
+Here are some screenshots of the final solution
+![](./screenshot.jpg)
+
+### Links
+
+- Solution Github URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [React-Query](https://tanstack.com/query/latest/docs/framework/react/overview)
+- [Zustand](https://zustand.docs.pmnd.rs/getting-started/introduction)
+
+### What I learned
+
+In this project i've learned a lot of using in a better way zustand and react-query, because that topics were a problem for me in the recent proyects that i did and i feel very proud of myself to try to apply this and did it in a better way than before.
+This can be small but for me as a junior is new and was using multiples apis to get the challenge done and that made me enjoy more this challenge and stress me out a bit YEAHH!!! just a bit.
+The most important part was that i could be able to complete the challenge and prove myself that i can do it even if i don't know how and that was the best part of this challenge.
+
+### Continued development
+
+I learn a lot but obviously i have to improve more in the way a code try to be more eficient and challenge myself to get better
+Maybe i would love to try more complex app or challenge to make be more curious and force me to learn new topics
+
+## Author
+
+- Website - [Marcelo Garita Fonseca](https://marcelogf-portfolio.netlify.app/)
+- Frontend Mentor - [@marcelogaritaf](https://www.frontendmentor.io/profile/marcelogaritaf)
+- GitHub - [@marcelogaritaf](https://github.com/marcelogaritaf)
